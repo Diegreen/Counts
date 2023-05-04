@@ -64,3 +64,56 @@ function toSquare() {
 }
 
 toSquare()
+
+function squareNumbers () {
+    let squares = []
+    for(let i = 15; i <= 200; i++) {
+        squares.push(i ** 2) 
+    }
+    return squares
+}
+
+console.log(squareNumbers())
+
+
+function sumOfHundred () {
+    let sum = 0
+    for(let i = 1; i <= 100; i++) {
+        sum += i
+    }
+    return sum
+}
+
+console.log(sumOfHundred())
+
+function squareNumbers2 () {
+    let square2 = []
+     for(let i = 15; i <= 100; i++) {
+         square2.push(i ** 2)
+     }
+     return square2
+}
+
+console.log(squareNumbers2())
+
+function sumHundred2 () {
+    let sum2 = 0
+    for(let i = 1; i <= 100; i++) {
+        sum2 += i;
+    }
+   return sum2
+}
+
+console.log(sumHundred2())
+
+function checkDivisionForFour () {
+    let divisionForFour = []
+    for(i = 0; i <= 199; i++) {
+       if(i % 4 === 0) {
+        divisionForFour.push(i)
+       } 
+    }
+    return divisionForFour
+}
+
+console.log(checkDivisionForFour())
