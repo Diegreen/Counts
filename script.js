@@ -117,3 +117,14 @@ function checkDivisionForFour () {
 }
 
 console.log(checkDivisionForFour())
+
+function calcSumAverage () { 
+ let soma = 0
+  for(i = 50; i <= 70; i++) {
+    soma += i;
+  }
+  let average = soma / (70 - 50 + 1);
+  return {soma, average};
+}
+
+console.log(calcSumAverage())
